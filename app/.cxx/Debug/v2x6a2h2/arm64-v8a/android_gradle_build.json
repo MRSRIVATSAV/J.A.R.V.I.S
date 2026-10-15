@@ -1,0 +1,115 @@
+{
+  "buildFiles": [
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/ggml/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/ggml/src/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/ggml/src/ggml-cpu/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/src/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/tools/mtmd/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/hash/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/miniaudio/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/nlohmann/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/sheredom/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/stb/CMakeLists.txt",
+    "/workspaces/J.A.R.V.I.S/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/tmp/android-sdk/cmake/3.31.6/bin/ninja",
+      "-C",
+      "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/tmp/android-sdk/cmake/3.31.6/bin/ninja",
+    "-C",
+    "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ggml::@8962117a6a1c5621966e": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml",
+      "output": "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml.so",
+      "runtimeFiles": [
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-cpu.so",
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "ggml-base::@8962117a6a1c5621966e": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml-base",
+      "output": "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-base.so",
+      "runtimeFiles": []
+    },
+    "ggml-cpu::@8962117a6a1c5621966e": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "ggml-cpu",
+      "output": "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-cpu.so",
+      "runtimeFiles": [
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "jarvis_llama::@6890427a1f51a3e7e1df": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "jarvis_llama",
+      "output": "/workspaces/J.A.R.V.I.S/app/build/intermediates/cxx/Debug/v2x6a2h2/obj/arm64-v8a/libjarvis_llama.so",
+      "runtimeFiles": [
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libmtmd.so",
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libllama.so",
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml.so",
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-cpu.so",
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "llama::@5f746804226f86188607": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "llama",
+      "output": "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libllama.so",
+      "runtimeFiles": [
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml.so",
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-cpu.so",
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "mtmd::@1a92c4c7615eb3c2faae": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "mtmd",
+      "output": "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libmtmd.so",
+      "runtimeFiles": [
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libllama.so",
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml.so",
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-cpu.so",
+        "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/bin/libggml-base.so"
+      ]
+    },
+    "vendor-hash::@606da0c2e3c4a1387d89": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "vendor-hash",
+      "output": "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-build/vendor/hash/libvendor-hash.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/tmp/android-sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/tmp/android-sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp",
+    "cxx",
+    "c"
+  ]
+}

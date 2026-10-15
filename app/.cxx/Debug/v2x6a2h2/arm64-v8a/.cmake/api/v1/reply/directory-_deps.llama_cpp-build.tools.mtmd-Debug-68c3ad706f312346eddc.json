@@ -1,0 +1,66 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/tools/mtmd/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 116,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libmtmd.so"
+			],
+			"targetId" : "mtmd::@1a92c4c7615eb3c2faae",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/tools/mtmd/debug/mtmd-debug.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/tools/mtmd/mtmd.h",
+				"/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/tools/mtmd/mtmd-helper.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/llama_cpp-build/tools/mtmd",
+		"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/tools/mtmd"
+	}
+}

@@ -1,0 +1,60 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ggml_add_backend_library",
+			"ggml_add_cpu_backend_variant_impl"
+		],
+		"files" : 
+		[
+			"/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/ggml/src/CMakeLists.txt",
+			"/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/ggml/src/ggml-cpu/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 596,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 396,
+				"parent" : 2
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"bin/libggml-cpu.so"
+			],
+			"targetId" : "ggml-cpu::@8962117a6a1c5621966e",
+			"targetIndex" : 2,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/llama_cpp-build/ggml/src",
+		"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/ggml/src"
+	}
+}

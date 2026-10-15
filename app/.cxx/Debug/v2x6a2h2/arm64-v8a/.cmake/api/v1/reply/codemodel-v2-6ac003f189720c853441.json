@@ -1,0 +1,330 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						6,
+						12
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.llama_cpp-build-Debug-2d845487ccd8d0ba081f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/ggml",
+					"childIndexes" : 
+					[
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.llama_cpp-build.ggml-Debug-a5c3c50cac02f9bcc2cb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/ggml"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/ggml/src",
+					"childIndexes" : 
+					[
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.llama_cpp-build.ggml.src-Debug-8afba6a84427f5c3726d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/ggml/src",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/ggml/src/ggml-cpu",
+					"jsonFile" : "directory-_deps.llama_cpp-build.ggml.src.ggml-cpu-Debug-1519eb8f3786c19e5b67.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/ggml/src/ggml-cpu"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/src",
+					"jsonFile" : "directory-_deps.llama_cpp-build.src-Debug-a0b0b2658d1999dca366.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/src",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/vendor",
+					"childIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11
+					],
+					"jsonFile" : "directory-_deps.llama_cpp-build.vendor-Debug-43af1c1f2d9f4d444ef9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/vendor/hash",
+					"jsonFile" : "directory-_deps.llama_cpp-build.vendor.hash-Debug-0dbea86fd20b1e2d9b77.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/hash",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "_deps/llama_cpp-build/vendor/miniaudio",
+					"jsonFile" : "directory-_deps.llama_cpp-build.vendor.miniaudio-Debug-9885468aba22136655c6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/miniaudio"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/vendor/nlohmann",
+					"jsonFile" : "directory-_deps.llama_cpp-build.vendor.nlohmann-Debug-3fe2149aa110941d3460.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/nlohmann"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/vendor/sheredom",
+					"jsonFile" : "directory-_deps.llama_cpp-build.vendor.sheredom-Debug-13ba93e5612d66cdff0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/sheredom"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/vendor/stb",
+					"jsonFile" : "directory-_deps.llama_cpp-build.vendor.stb-Debug-d5dbb5ca3c86040a7cb7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 6,
+					"projectIndex" : 1,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/vendor/stb"
+				},
+				{
+					"build" : "_deps/llama_cpp-build/tools/mtmd",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.llama_cpp-build.tools.mtmd-Debug-68c3ad706f312346eddc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a/_deps/llama_cpp-src/tools/mtmd",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "jarvis_llama",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "llama.cpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "ggml",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml::@8962117a6a1c5621966e",
+					"jsonFile" : "target-ggml-Debug-e5d6d9437876a2d1a7d3.json",
+					"name" : "ggml",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-base::@8962117a6a1c5621966e",
+					"jsonFile" : "target-ggml-base-Debug-b7ee93984007004212ef.json",
+					"name" : "ggml-base",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ggml-cpu::@8962117a6a1c5621966e",
+					"jsonFile" : "target-ggml-cpu-Debug-7b85210d8a36cbab2e85.json",
+					"name" : "ggml-cpu",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "jarvis_llama::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jarvis_llama-Debug-c9a283beda0463012308.json",
+					"name" : "jarvis_llama",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "llama::@5f746804226f86188607",
+					"jsonFile" : "target-llama-Debug-859ed14883272005afd7.json",
+					"name" : "llama",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "mtmd::@1a92c4c7615eb3c2faae",
+					"jsonFile" : "target-mtmd-Debug-8c61cf91955601d2fab2.json",
+					"name" : "mtmd",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "vendor-hash::@606da0c2e3c4a1387d89",
+					"jsonFile" : "target-vendor-hash-Debug-0c696287eb9bb18a5aa7.json",
+					"name" : "vendor-hash",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/J.A.R.V.I.S/app/.cxx/Debug/v2x6a2h2/arm64-v8a",
+		"source" : "/workspaces/J.A.R.V.I.S/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
